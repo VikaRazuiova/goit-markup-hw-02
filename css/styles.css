@@ -35,7 +35,7 @@ body{
 /*logo*/
 
 .logo{
-    font-family: 'Releway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -102,12 +102,15 @@ body{
 
 /*features*/
 
+
 .features-text{
     font-weight: 400;
     line-height: 1.7;
     color:var(--secondary-text-color);
 }
 .features-title{
+    font-size: 14px;
+    font-weight: 700;
     line-height: 1.14;
 }
 
@@ -126,18 +129,19 @@ body{
 
 .team{
     background-color: #F5F4FA;
-    font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.18;   
 }
 
 .team-title{
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    font-weight: 700;
 }
 
 .team-name{
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 500; 
 }
 
 .team-text{
@@ -186,8 +190,11 @@ body{
 .buttons [type]{
     font-family: inherit;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.62;
     cursor: pointer;
+    color: currentColor;
+    letter-spacing: inherit;
 }
 .buttons [type]:hover,
 .buttons [type]:focus{
@@ -207,6 +214,7 @@ body{
     letter-spacing: 0.06em;  
 }
 .projects-text{
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     color: #757575;
