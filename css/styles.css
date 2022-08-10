@@ -109,10 +109,14 @@ body{
     color:var(--secondary-text-color);
 }
 .features-title{
+    line-height: 1.14;
     font-size: 14px;
     font-weight: 700;
-    line-height: 1.14;
 }
+
+
+
+
 
 /*activity*/
 
@@ -146,6 +150,7 @@ body{
 
 .team-text{
     font-weight: 400;
+    font-size: 16px;
     color:var(--secondary-text-color); 
 }
 
